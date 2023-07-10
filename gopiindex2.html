@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App-javascript</title>
+    <link rel="stylesheet"href="weather.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="app-tittle">
+            <h1>Weather APP</h1>
+            <!-- <h2>Eneter your city</h2>
+            <input id="city" type="text" > 
+            <button type="submit" id="btn"onclick="getLocation()">Submit</button>-->
+            <div id="data">
+                <h1 id="title"></h1>
+                <img  id="pic">
+             
+             
+            </div>
+        </div>
+        <div class="notification"></div>
+        <div class="weather-container">
+            <div class="weather-icon"> 
+                <img src= "cloudygopi.png">        
+             </div>
+            <div class="temperature-value">
+                <p><h1>Actual temperature</h1>-&deg;<span>c</span></p>
+            </div>
+            <div class="temperature-description">
+                <p><h2>humidity</h2>
+                <h5 id="humid"></h5></p>
+            </div>
+            <div class="location">
+                <p> <h2>Eneter your city</h2>
+                    <input id="city" type="text" > 
+                    <button type="submit" id="btn"onclick="getLocation()">Submit</button></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+      <script src="javaweather.js"></script>
+    
+</body>
+</html>
